@@ -69,7 +69,7 @@ const Education = () => {
                     </div>
                     <div className="col-12">
                         <div className="container mb-5 para-style" data-aos="fade-right" data-aos-duration="3000">
-                            My college days started with the course data science and ended in getting a huge interest in Web development. I developed a strong foundation in both front-end and back-end development during my college days.  During my studies, I gained expertise in key programming languages and technologies such as HTML, CSS, JavaScript, React, Node.js, and SQL databases. My coursework included hands-on projects and collaborative assignments that honed my skills in developing responsive web applications, API integration, and database management. This comprehensive education has equipped me with the technical and problem-solving skills necessary to excel as a Full Stack Developer.
+                        My journey through college began with a focus on data science and evolved into a deep passion for web development. Over this period, I built a solid understanding of both front-end and back-end development. Through my coursework, I mastered essential programming languages and technologies like HTML, CSS, JavaScript, React, Node.js, and SQL databases. I completed numerous hands-on projects and collaborative assignments that sharpened my ability to create responsive web applications, integrate APIs, and manage databases effectively. This extensive education has equipped me with the technical prowess and problem-solving abilities essential for excelling as a Full Stack Developer.
                         </div>
                     </div>
 

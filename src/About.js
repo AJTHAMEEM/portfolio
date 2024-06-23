@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+const baseUrl = "https://ajthameem.github.io/portfolio/";
+
 
 const About = () => {
 
@@ -23,9 +25,9 @@ const About = () => {
                         A Software Engineer Located In India
                     </h5>
                     <p className="mt-20">
-                        Who wants to use his programming abilities to create complex solutions and writing maintainable codes, having a persistent desire to learn new technologies.
+                        A passionate Software Engineer based in India, dedicated to leveraging programming skills to develop intricate and robust solutions. With a keen focus on writing maintainable and efficient code, I strive to deliver high-quality software that meets user needs and business goals. My persistent desire to learn and adapt to new technologies drives me to stay at the forefront of the industry.
                     </p>
-                    <a href="/assets/resume/abdul_resume.pdf" download={"Abdul_resume.pdf"}>
+                    <a href={`${window.location.hostname === "localhost" ? "/" : baseUrl}assets/resume/Abdul_resume.pdf`} download={"Abdul_resume.pdf"}>
                         <button className="btn btn-outline-danger">
                             <i className="icon-down-circled2 " />
                             Download My CV
@@ -95,7 +97,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="col-lg-4 about-card para-style" data-aos="fade-down" data-aos-duration="3000">
-                    <h3 className="font-weight-light">My Abilities</h3>
+                    <h3 className="font-weight-light">Expertise in</h3>
                     <span className="line mb-5" />
                     <div className="row">
                         <div className="col-1 text-danger">
@@ -126,7 +128,7 @@ const About = () => {
                             </span>
                         </div>
                         <div className="col-10 mr-3">
-                            <h6 className='pb-0'>Databases</h6>
+                            <h6 className='pb-0'>Database Management</h6>
                             <hr />
                         </div>
                     </div>
@@ -139,6 +141,38 @@ const About = () => {
                         <div className="col-10 mr-3">
                             <h6 className='pb-0'>Software Training</h6>
                             <hr />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-1 text-danger ">
+                            <span class="material-symbols-outlined icon-lg">
+                                groups
+                            </span>
+                        </div>
+                        <div className="col-10 mr-3">
+                            <h6 className='pb-0'>Team Management</h6>
+                            <hr />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-1 text-danger ">
+                            <span class="material-symbols-outlined icon-lg">
+                                diversity_1
+                            </span>
+                        </div>
+                        <div className="col-10 mr-3">
+                            <h6 className='pb-0'>Client Handling</h6>
+                            <hr />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-1 text-danger ">
+                            <span class="material-symbols-outlined icon-lg">
+                                demography
+                            </span>
+                        </div>
+                        <div className="col-10 mr-3">
+                            <h6 className='pb-0'>Product Demonstration</h6>
                         </div>
                     </div>
                 </div>

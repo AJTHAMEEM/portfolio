@@ -11,7 +11,7 @@ const Works = () => {
                     </h1>
                 </div>
                 <p className="para-style" data-aos="fade-right" data-aos-duration="2000">
-                    Here are few works of mine. To see all my works in a detailed view, you can &nbsp;
+                    Here are some samples of my work. To see all my works in a detailed view, you can &nbsp;
                     <a
                         href="https://docs.google.com/document/d/1qowe9YGQoLyxZivwQGoUtWHaaXAnuK745eMyoTAkwpI/edit?usp=sharing"
                         target="__blank"
@@ -57,7 +57,7 @@ const Works = () => {
                                 />
                             </div>
                         </div>
-                        
+
                         <div className="col-md-6 col-lg-4 content product elearning">
                             <div className="portfolio-item">
                                 <img
