@@ -48,7 +48,57 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 content product elearning">
+                        <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/swtn1.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/swtn2.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/swtn3.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/tts1.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/tts2.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 content product ecommerce elearning">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/e1.png"
@@ -58,7 +108,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 content product elearning">
+                        <div className="col-md-6 col-lg-4 content product ecommerce elearning">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/el2.png"
@@ -142,6 +192,116 @@ const Works = () => {
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/ft5.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (1).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (2).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (3).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce elearning">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vid1.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (4).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (5).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (6).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (7).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (8).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (9).png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 ecommerce">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/vors (10).png"
                                     className="img-fluid"
                                     alt="image not found"
                                 />

@@ -119,6 +119,40 @@ const Education = () => {
 
                                     <div className="course pb-1" data-aos="fade-right" data-aos-duration="1000">
                                         <div className="d-flex align-items-center gap-1r pb-1">
+                                            <h6 className="title text-danger mb-0">Node JS</h6>
+                                            <span
+                                                class="material-symbols-outlined icon-color pointer "
+                                                onClick={() => {
+                                                    Open("https://drive.google.com/file/d/10gg7JNXgoH8byxN0yYgAvh29rJwchayG/view?usp=sharing")
+                                                }}
+                                            >
+                                                open_in_new
+                                            </span>
+                                        </div>
+                                        <label> From Great Learning academy</label>
+                                    </div>
+                                    <hr />
+                                    <br />
+
+                                    <div className="course pb-1" data-aos="fade-right" data-aos-duration="1000">
+                                        <div className="d-flex align-items-center gap-1r pb-1">
+                                            <h6 className="title text-danger mb-0">MySQL</h6>
+                                            <span
+                                                class="material-symbols-outlined icon-color pointer "
+                                                onClick={() => {
+                                                    Open("https://drive.google.com/file/d/1cx3KnYU3cXGO_IBKU-N1vyetjk77oAgb/view?usp=sharing")
+                                                }}
+                                            >
+                                                open_in_new
+                                            </span>
+                                        </div>
+                                        <label> From Great Learning academy</label>
+                                    </div>
+                                    <hr />
+                                    <br />
+
+                                    <div className="course pb-1" data-aos="fade-right" data-aos-duration="1000">
+                                        <div className="d-flex align-items-center gap-1r pb-1">
                                             <h6 className="title text-danger mb-0">Python</h6>
                                             <span
                                                 class="material-symbols-outlined icon-color pointer "
