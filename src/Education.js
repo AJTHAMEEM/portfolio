@@ -13,19 +13,19 @@ const Education = () => {
                     <span className="text-danger">E</span>ducation
                 </h2>
                 <div className="row">
-                    <div className="col-md-6 col-lg-4 col-sm-12">
-                        <div className="card card-make" data-aos="fade-down" data-aos-duration="2000">
+                <div className="col-md-6 col-lg-4 col-sm-12" data-aos="fade-down" data-aos-duration="2000">
+                        <div className="card card-make">
                             <div className="card-header">
                                 <div className="mt-2">
-                                    <h4>SSLC</h4>
-                                    <p>10th Grade</p>
+                                    <h4>UG</h4>
+                                    <p>College Degree</p>
                                     <span className="line" />
                                 </div>
                             </div>
                             <div className="card-body">
-                                <h6 className="title text-danger">2017</h6>
+                                <h6 className="title text-danger">2022</h6>
                                 <p className="subtitle para-style-3">
-                                    Scored <strong>96%</strong> in the 10th Grade Exam.
+                                    I hold a <strong>BCA</strong> degree in <strong>Data Science</strong> from BSA Crescent Institute of Science and Technology with <strong> CGPA: 7.9</strong>
                                 </p>
 
                             </div>
@@ -49,24 +49,26 @@ const Education = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 col-sm-12" data-aos="fade-down" data-aos-duration="2000">
-                        <div className="card card-make">
+                    <div className="col-md-6 col-lg-4 col-sm-12">
+                        <div className="card card-make" data-aos="fade-down" data-aos-duration="2000">
                             <div className="card-header">
                                 <div className="mt-2">
-                                    <h4>UG</h4>
-                                    <p>College Degree</p>
+                                    <h4>SSLC</h4>
+                                    <p>10th Grade</p>
                                     <span className="line" />
                                 </div>
                             </div>
                             <div className="card-body">
-                                <h6 className="title text-danger">2022</h6>
+                                <h6 className="title text-danger">2017</h6>
                                 <p className="subtitle para-style-3">
-                                    I hold a <strong>BCA in Data Science</strong> from BSA Crescent Institute of Science and Technology with <strong> CGPA: 7.9</strong>
+                                    Scored <strong>96%</strong> in the 10th Grade Exam.
                                 </p>
 
                             </div>
                         </div>
                     </div>
+                    
+                    
                     <div className="col-12">
                         <div className="container mb-5 para-style" data-aos="fade-right" data-aos-duration="3000">
                         My journey through college began with a focus on data science and evolved into a deep passion for web development. Over this period, I built a solid understanding of both front-end and back-end development. Through my coursework, I mastered essential programming languages and technologies like HTML, CSS, JavaScript, React, Node.js, and SQL databases. I completed numerous hands-on projects and collaborative assignments that sharpened my ability to create responsive web applications, integrate APIs, and manage databases effectively. This extensive education has equipped me with the technical prowess and problem-solving abilities essential for excelling as a Full Stack Developer.
@@ -129,7 +131,7 @@ const Education = () => {
                                                 open_in_new
                                             </span>
                                         </div>
-                                        <label> From Great Learning academy</label>
+                                        <label>  SkillUp by SimpliLearn academy</label>
                                     </div>
                                     <hr />
                                     <br />
@@ -180,7 +182,7 @@ const Education = () => {
                                                 open_in_new
                                             </span>
                                         </div>
-                                        <label> From SkillUp program by SimpliLearn academy</label>
+                                        <label> SkillUp by SimpliLearn academy</label>
                                     </div>
                                     <hr />
                                     <br />
@@ -197,7 +199,7 @@ const Education = () => {
                                                 open_in_new
                                             </span>
                                         </div>
-                                        <label> From SkillUp program by SimpliLearn academy</label>
+                                        <label> SkillUp by SimpliLearn academy</label>
                                     </div>
                                     <br />
                                 </div>

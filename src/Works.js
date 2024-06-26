@@ -1,6 +1,19 @@
 import React from "react";
 
 const Works = () => {
+    const Open = (path) => {
+        const baseUrl = "https://ajthameem.github.io/portfolio";
+        let pathway = ""
+
+        if (window.location.hostname === "localhost") {
+            pathway = path
+        } else {
+            pathway = `${baseUrl}/${path}`
+        }
+
+        window.open(pathway, "__blank")
+    }
+
 
     return (
         <section className="section bg-custom-gray" id="works">
@@ -41,6 +54,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/cs1_1.png")}
                                     src="assets/imgs/cs1_1.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -48,37 +63,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 content">
-                            <div className="portfolio-item">
-                                <img
-                                    src="assets/imgs/swtn1.png"
-                                    className="img-fluid"
-                                    alt="image not found"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4 content">
-                            <div className="portfolio-item">
-                                <img
-                                    src="assets/imgs/swtn2.png"
-                                    className="img-fluid"
-                                    alt="image not found"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4 content">
-                            <div className="portfolio-item">
-                                <img
-                                    src="assets/imgs/swtn3.png"
-                                    className="img-fluid"
-                                    alt="image not found"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4 content">
+                        {/* <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/tts1.png"
@@ -86,11 +71,13 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/tts2.png")}
                                     src="assets/imgs/tts2.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -98,9 +85,45 @@ const Works = () => {
                             </div>
                         </div>
 
+                        {/* <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/swtn1.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div> */}
+
+                        {/* <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    src="assets/imgs/swtn2.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div> */}
+
+                        <div className="col-md-6 col-lg-4 content">
+                            <div className="portfolio-item">
+                                <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/swtn3.png")}
+                                    src="assets/imgs/swtn3.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+
+
                         <div className="col-md-6 col-lg-4 content product ecommerce elearning">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/e1.png")}
                                     src="assets/imgs/e1.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -111,6 +134,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 content product ecommerce elearning">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/el2.png")}
                                     src="assets/imgs/el2.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -121,6 +146,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/inkyhome.png")}
                                     src="assets/imgs/inkyhome.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -131,6 +158,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 product">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/ps1.png")}
                                     src="assets/imgs/ps1.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -141,6 +170,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 product">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/ps2.png")}
                                     src="assets/imgs/ps2.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -151,6 +182,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/ft1.png")}
                                     src="assets/imgs/ft1.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -161,6 +194,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/ft2.png")}
                                     src="assets/imgs/ft2.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -171,6 +206,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/ft3.png")}
                                     src="assets/imgs/ft3.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -181,6 +218,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/ft4.png")}
                                     src="assets/imgs/ft4.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -191,6 +230,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/ft5.png")}
                                     src="assets/imgs/ft5.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -201,6 +242,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/vors (1).png")}
                                     src="assets/imgs/vors (1).png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -211,6 +254,8 @@ const Works = () => {
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/vors (2).png")}
                                     src="assets/imgs/vors (2).png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -218,7 +263,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 ecommerce">
+                        {/* <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/vors (3).png"
@@ -226,11 +271,13 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-md-6 col-lg-4 ecommerce elearning">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/vid1.png")}
                                     src="assets/imgs/vid1.png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -238,7 +285,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 ecommerce">
+                        {/* <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/vors (4).png"
@@ -246,11 +293,13 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/vors (5).png")}
                                     src="assets/imgs/vors (5).png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -258,7 +307,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 ecommerce">
+                        {/* <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/vors (6).png"
@@ -266,9 +315,9 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="col-md-6 col-lg-4 ecommerce">
+                        {/* <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/vors (7).png"
@@ -276,11 +325,13 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/vors (8).png")}
                                     src="assets/imgs/vors (8).png"
                                     className="img-fluid"
                                     alt="image not found"
@@ -288,7 +339,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 ecommerce">
+                        {/* <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/vors (9).png"
@@ -296,11 +347,13 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-md-6 col-lg-4 ecommerce">
                             <div className="portfolio-item">
                                 <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/vors (10).png")}
                                     src="assets/imgs/vors (10).png"
                                     className="img-fluid"
                                     alt="image not found"
