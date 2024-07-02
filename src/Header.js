@@ -29,7 +29,7 @@ const Header = () => {
                             class="material-symbols-outlined icon-color-2 pointer ml-1"
                             title="Open resume in new tab"
                             onClick={() => {
-                                window.open("https://drive.google.com/file/d/1XoO4IMXwNHCADIrHAqT8U8ySxNEKKxzO/view?usp=sharing", "__blank")
+                                window.open("https://drive.google.com/file/d/1CjaUTk_a6NE6Gqcvcr-GtCBtfUYJFbhN/view?usp=sharing", "__blank")
                             }}
                         >
                             open_in_new
