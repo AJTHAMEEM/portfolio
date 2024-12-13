@@ -49,7 +49,7 @@ const Contact = () => {
                         <span className="text-danger">C</span>ontact
                     </h1>
                 </div>
-                <div class="row"  data-aos="zoom-out" data-aos-duration="800">
+                <div class="row">
                     <div class="col-lg-8 col-md-12 col-sm-12" >
                         <div class="contact-form-card">
                             <h4 class="contact-title">Send a message</h4>
@@ -73,7 +73,7 @@ const Contact = () => {
                     </div>
                     {/* <div className="col-lg-3 col-md-3"></div> */}
                     <div class="col-lg-4 col-sm-12 col-md-12">
-                        <div class="contact-info-card ">
+                        <div class="contact-info-card " data-aos="zoom-out" data-aos-duration="800">
                             <h4 class="contact-title">Get in touch</h4>
                             <div class="row mb-2">
                                 <div class="mr-1">
@@ -101,12 +101,10 @@ const Contact = () => {
                             <ul class="social-icons pt-4">
                                 <li class="social-item"><a class="social-link text-dark" href="mailto:ajthameem30@gmail.com"><i class="ti-google" aria-hidden="true"></i></a></li>
                                 <li class="social-item"
-                                    onClick={() => window.open("https://www.linkedin.com/in/abdul-jabbar-thameem", "__blank")}
-                                ><a class="social-link text-dark" href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                                ><a class="social-link text-dark" href="https://www.linkedin.com/in/abdul-jabbar-thameem" target="_blank"><i class="ti-linkedin" aria-hidden="true"></i></a>
                                 </li>
                                 <li class="social-item"
-                                    onClick={() => window.open("https://github.com/AJTHAMEEM", "__blank")}
-                                ><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a>
+                                ><a class="social-link text-dark" href="https://github.com/AJTHAMEEM" target="_blank"><i class="ti-github" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
                         </div>
