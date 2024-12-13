@@ -82,7 +82,7 @@ const Education = () => {
           <div className="col-12">
             <div
               className="container mb-5 para-style"
-              data-aos="zoom-out"
+              data-aos="fade-up"
               data-aos-duration="1000"
             >
               My journey through college began with a focus on data science and

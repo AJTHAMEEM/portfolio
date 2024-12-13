@@ -221,8 +221,9 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <div
-        data-aos="zoom-out"
+        data-aos="fade-up"
         data-aos-duration="800"
         className="mt-5 para-style text-dg"
       >

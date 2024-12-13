@@ -23,7 +23,7 @@ const Works = () => {
                         <span className="text-danger">Work</span> Samples
                     </h1>
                 </div>
-                <p className="para-style" data-aos="zoom-out" data-aos-duration="1000">
+                <p className="para-style" data-aos="fade-up" data-aos-duration="1000">
                     Some of the old browser versions may not support the below animations. No worries, to see all my work samples in a detailed view, you can &nbsp;
                     <a
                         href="https://docs.google.com/document/d/1qowe9YGQoLyxZivwQGoUtWHaaXAnuK745eMyoTAkwpI/edit?usp=sharing"
