@@ -10,9 +10,6 @@ import Contact from "./Contact";
 export default class Home extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-
-        }
     }
 
     render() {

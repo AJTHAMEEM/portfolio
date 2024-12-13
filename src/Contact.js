@@ -49,7 +49,7 @@ const Contact = () => {
                         <span className="text-danger">C</span>ontact
                     </h1>
                 </div>
-                <div class="row">
+                <div class="row"  data-aos="zoom-out" data-aos-duration="800">
                     <div class="col-lg-8 col-md-12 col-sm-12" >
                         <div class="contact-form-card">
                             <h4 class="contact-title">Send a message</h4>

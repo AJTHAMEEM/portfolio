@@ -71,8 +71,8 @@
   color: #F85C70;
 }
 
-.h-50r {
-  height: 52rem;
+.h-60r {
+  height: 60rem;
 }
 
 @media screen and (min-width: 769px) {
@@ -80,7 +80,7 @@
     padding-left: 5rem;
     padding-right: 5rem;
     letter-spacing: 1px;
-    color: black;
+    color: #343a40;
     line-height: 1.9rem;
   }
 }
@@ -90,7 +90,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     letter-spacing: 1px;
-    color: black;
+    color: #343a40;
     line-height: 1.9rem;
   }
 }
@@ -99,12 +99,12 @@
   padding-left: 3rem;
   padding-right: 3rem;
   letter-spacing: 1px;
-  color: black;
+  color: #343a40;
 }
 
 .para-style-3 {
   letter-spacing: 1px;
-  color: black;
+  color: #343a40;
 }
 
 .portfolio-item {

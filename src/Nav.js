@@ -4,15 +4,14 @@ const Nav = () => {
     let width = window.innerWidth
 
     const Hide = () => {
-        console.log("entered hide");
+        // console.log("entered hide", width);
 
         if (width < 993) {
-            console.log("entered conditioon");
-
+            // console.log("entered conditioon");
             let element = document.getElementById('navbarSupportedContent')
-            console.log(element, "elemet")
+            // console.log(element, "elemet")
             element.classList.toggle("show")
-            console.log(element, "element 2")
+            // console.log(element, "element 2")
         }
     }
     return (
@@ -24,7 +23,7 @@ const Nav = () => {
                 <div className="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a href="#home" className="nav-link" >Home</a>
+                            <a href="#home" className="nav-link" onClick={() => Hide()}>Home</a>
                         </li>
                         <li className="nav-item">
                             <a href="#about" className="nav-link" onClick={() => Hide()}>About</a>

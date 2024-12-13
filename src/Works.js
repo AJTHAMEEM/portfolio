@@ -23,8 +23,8 @@ const Works = () => {
                         <span className="text-danger">Work</span> Samples
                     </h1>
                 </div>
-                <p className="para-style" data-aos="fade-right" data-aos-duration="2000">
-                    Here are some samples of my work. To see all my works in a detailed view, you can &nbsp;
+                <p className="para-style" data-aos="zoom-out" data-aos-duration="1000">
+                    Some of the old browser versions may not support the below animations. No worries, to see all my work samples in a detailed view, you can &nbsp;
                     <a
                         href="https://docs.google.com/document/d/1qowe9YGQoLyxZivwQGoUtWHaaXAnuK745eMyoTAkwpI/edit?usp=sharing"
                         target="__blank"
@@ -63,7 +63,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        {/* <div className="col-md-6 col-lg-4 content">
+                        <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/tts1.png"
@@ -71,7 +71,7 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div> */}
+                        </div>
 
                         <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
@@ -95,7 +95,7 @@ const Works = () => {
                             </div>
                         </div> */}
 
-                        {/* <div className="col-md-6 col-lg-4 content">
+                        <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
                                 <img
                                     src="assets/imgs/swtn2.png"
@@ -103,7 +103,7 @@ const Works = () => {
                                     alt="image not found"
                                 />
                             </div>
-                        </div> */}
+                        </div>
 
                         <div className="col-md-6 col-lg-4 content">
                             <div className="portfolio-item">
@@ -119,7 +119,7 @@ const Works = () => {
 
 
 
-                        <div className="col-md-6 col-lg-4 content product ecommerce elearning">
+                        <div className="col-md-6 col-lg-4 elearning">
                             <div className="portfolio-item">
                                 <img
                                     title="Double click to view the image"
@@ -131,7 +131,7 @@ const Works = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 content product ecommerce elearning">
+                        <div className="col-md-6 col-lg-4 elearning">
                             <div className="portfolio-item">
                                 <img
                                     title="Double click to view the image"
@@ -173,6 +173,66 @@ const Works = () => {
                                     title="Double click to view the image"
                                     onClick={() => Open("assets/imgs/ps2.png")}
                                     src="assets/imgs/ps2.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 product">
+                            <div className="portfolio-item">
+                                <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/he5.png")}
+                                    src="assets/imgs/he5.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div> 
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 product">
+                            <div className="portfolio-item">
+                                <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/he4.png")}
+                                    src="assets/imgs/he4.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 product">
+                            <div className="portfolio-item">
+                                <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/he3.png")}
+                                    src="assets/imgs/he3.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 product">
+                            <div className="portfolio-item">
+                                <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/he2.png")}
+                                    src="assets/imgs/he2.png"
+                                    className="img-fluid"
+                                    alt="image not found"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 product">
+                            <div className="portfolio-item">
+                                <img
+                                    title="Double click to view the image"
+                                    onClick={() => Open("assets/imgs/he1.png")}
+                                    src="assets/imgs/he1.png"
                                     className="img-fluid"
                                     alt="image not found"
                                 />
@@ -273,7 +333,7 @@ const Works = () => {
                             </div>
                         </div> */}
 
-                        <div className="col-md-6 col-lg-4 ecommerce elearning">
+                        <div className="col-md-6 col-lg-4 elearning">
                             <div className="portfolio-item">
                                 <img
                                     title="Double click to view the image"

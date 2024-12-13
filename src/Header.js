@@ -12,9 +12,9 @@ const Header = () => {
         <header className="header" id="home">
             <div className="container">
                 <div className="header-content" >
-                    <h4 className="header-subtitle" data-aos="fade-left" data-aos-duration="1000">Hello, I am</h4>
-                    <h1 className="header-title" data-aos="fade-left" data-aos-duration="1500">Abdul</h1>
-                    <h6 className="header-mono" data-aos="fade-left" data-aos-duration="2000">Full Stack Developer</h6>
+                    <h4 className="header-subtitle" data-aos="fade-left" data-aos-duration="200">Hello, I am</h4>
+                    <h1 className="header-title" data-aos="fade-left" data-aos-duration="500">Abdul</h1>
+                    <h6 className="header-mono" data-aos="fade-left" data-aos-duration="800">Full Stack Developer</h6>
                     <div className="d-flex align-items-center">
                         <a href={`${window.location.hostname === "localhost" ? "/" : baseUrl}assets/resume/Abdul_resume.pdf`} download={"Abdul_resume.pdf"}>
                             <button className="btn btn-primary btn-rounded d-flex align-items-center">
@@ -29,7 +29,7 @@ const Header = () => {
                             class="material-symbols-outlined icon-color-2 pointer ml-1"
                             title="Open resume in new tab"
                             onClick={() => {
-                                window.open("https://drive.google.com/file/d/1CjaUTk_a6NE6Gqcvcr-GtCBtfUYJFbhN/view?usp=sharing", "__blank")
+                                window.open("https://drive.google.com/file/d/1-NWwNEAul5QhzYpt9hmStRH74ngc3hrB/view?usp=sharing", "__blank")
                             }}
                         >
                             open_in_new
