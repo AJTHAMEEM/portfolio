@@ -43,7 +43,6 @@ const Contact = () => {
     return (
         <div class="section contact" id="contact">
             <div class="container">
-                
                 <div className="d-flex align-items-center">
                     <h1 className="mb-5">
                         <span className="text-danger">C</span>ontact
@@ -51,7 +50,7 @@ const Contact = () => {
                 </div>
                 <div class="row">
                     <div class="col-lg-8 col-md-12 col-sm-12" >
-                        <div class="contact-form-card" data-aos="fade-right" data-aos-duration="800">
+                        <div class="contact-form-card" data-aos="fade-down" data-aos-duration="1000">
                             <h4 class="contact-title">Send a message</h4>
                             <form ref={form} onSubmit={sendEmail}>
                                 <div class="form-group">
@@ -73,7 +72,7 @@ const Contact = () => {
                     </div>
                     {/* <div className="col-lg-3 col-md-3"></div> */}
                     <div class="col-lg-4 col-sm-12 col-md-12">
-                        <div class="contact-info-card " data-aos="fade-right" data-aos-duration="1000">
+                        <div class="contact-info-card " data-aos="fade-down" data-aos-duration="1000">
                             <h4 class="contact-title">Get in touch</h4>
                             <div class="row mb-2">
                                 <div class="mr-1">
