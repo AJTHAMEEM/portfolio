@@ -12324,8 +12324,6 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     height: 700px;
-    align-items: center;
-    align-content: center;
     overflow-x: scroll;
     background-color: white;
     padding: 1rem;
