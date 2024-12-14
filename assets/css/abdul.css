@@ -12270,6 +12270,7 @@ p {
 }
 
 .portfolio .filters {
+  background-color: white;
   border-bottom: 2px solid #dee2e6;
   border-radius: 0;
   padding-bottom: 4px;
@@ -12285,7 +12286,7 @@ p {
   justify-content: space-between;
 }
 
-.portfolio .filters a {
+.portfolio .filters span {
   -webkit-flex-basis: 0;
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -12297,24 +12298,47 @@ p {
   padding: 4px 10px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
+  cursor: pointer;
 }
 
-.portfolio .filters a:first-child {
+.portfolio .filters span:first-child {
   margin-left: 0;
 }
 
-.portfolio .filters a:last-child {
+.portfolio .filters span:last-child {
   margin-right: 0;
 }
 
-.portfolio .filters a:hover {
+.portfolio .filters span:hover {
   opacity: .9;
 }
 
-.portfolio .filters a.active {
+.portfolio .filters span.active {
   opacity: 1;
   background: #F85C70;
   color: #fff;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+    align-content: center;
+    overflow-x: scroll;
+    background-color: white;
+    padding: 1rem;
+}
+
+@keyframes disappear {
+  0% { opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.ani {
+  animation: disappear 0.5s ease-out 0s 1;
 }
 
 .portfolio .portfolio-container .portfolio-item {
@@ -12742,6 +12766,7 @@ pre .code {
 
 .about-section {
   border-bottom: 1px solid #dee2e6;
+  background-color: white;
 }
 
 .about-section .about-card {
