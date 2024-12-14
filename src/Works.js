@@ -109,7 +109,7 @@ const Works = () => {
           <div id="portfolioContainer" className="portfolio-container">
             {workSamples[current].map((imgName, index) => {
               return (
-                  <div className="col-md-6 col-lg-4">
+                  <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className="portfolio-item">
                       <img
                         title="Click to view the image"
