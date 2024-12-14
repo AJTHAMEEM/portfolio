@@ -1,3 +1,17 @@
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F85C70;
+  cursor: pointer;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
 .App {
   text-align: left;
 }
