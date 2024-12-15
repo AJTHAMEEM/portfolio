@@ -33,7 +33,7 @@ const Nav = () => {
                         </li>
                     </ul>
                     <ul className="navbar-nav brand">
-                        <img src="assets/imgs/avatar.jpeg" alt="" className="brand-img" />
+                        <img src="assets/imgs/avatar.jpeg" alt="" className="brand-img" title="ajthameem github io"/>
                         <li className="brand-txt">
                             <h5 className="brand-title">Abdul</h5>
                             <div className="brand-subtitle">Web Developer</div>
