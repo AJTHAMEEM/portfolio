@@ -89,6 +89,23 @@ body {
   height: 60rem;
 }
 
+.br-6{
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.br-1 {
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom-color: transparent;
+}
+
+.br-2 {
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-top-color: transparent;
+}
+
 @media screen and (min-width: 769px) {
   .para-style {
     padding-left: 5rem;
@@ -110,8 +127,8 @@ body {
 }
 
 .para-style-2 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   letter-spacing: 1px;
   color: #343a40;
 }

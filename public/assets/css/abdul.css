@@ -12270,11 +12270,11 @@ p {
 }
 
 .portfolio .filters {
+  
   background-color: white;
-  border-bottom: 2px solid #dee2e6;
-  border-radius: 0;
-  padding-bottom: 4px;
-  margin: 0 auto 20px;
+  padding: 6px;
+  margin: 0 auto;
+  margin-bottom: -5px;
   max-width: 400px;
   display: -webkit-box;
   display: -webkit-flex;

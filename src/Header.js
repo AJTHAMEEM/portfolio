@@ -10,7 +10,7 @@ const Header = () => {
     }, [])
     return (
         <header className="header" id="home">
-            <div className="container">
+            <div className="container" style={{overflow: "hidden"}}>
                 <div className="header-content" >
                     <h4 className="header-subtitle" data-aos="fade-left" data-aos-duration="200">Hello, I am</h4>
                     <h1 className="header-title" data-aos="fade-left" data-aos-duration="500">Abdul</h1>

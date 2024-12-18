@@ -9,7 +9,7 @@ const Skills = () => {
         </h2>
         <div className="row para-style-2">
           <div className="col-lg-6 col-sm-12 col-md-6">
-            <div className="card h-60r">
+            <div className="card h-60r br-6">
               <div className="card-header">
                 <div className="pull-left">
                   <h4 className="mt-2">Proficiency</h4>
@@ -206,7 +206,7 @@ const Skills = () => {
           </div>
 
           <div className="col-lg-6 col-sm-12 col-md-6">
-            <div className="card h-60r">
+            <div className="card h-60r br-6">
               <div className="card-body pb-2 pt-5rem pl-5 pr-5">
                 <h8 className="title text-danger"> Back-End </h8>
 

@@ -17,7 +17,7 @@ const Education = () => {
             data-aos="fade-down"
             data-aos-duration="800"
           >
-            <div className="card card-make">
+            <div className="card br-6 card-make">
               <div className="card-header">
                 <div className="mt-2">
                   <h4>UG</h4>
@@ -40,7 +40,7 @@ const Education = () => {
             data-aos="fade-down"
             data-aos-duration="800"
           >
-            <div className="card card-make">
+            <div className="card br-6 card-make">
               <div className="card-header">
                 <div className="mt-2">
                   <h4>HSC</h4>
@@ -59,7 +59,7 @@ const Education = () => {
           </div>
           <div className="col-md-6 col-lg-4 col-sm-12">
             <div
-              className="card card-make"
+              className="card br-6 card-make"
               data-aos="fade-down"
               data-aos-duration="800"
             >
@@ -100,7 +100,7 @@ const Education = () => {
           </div>
 
           <div className="col-12">
-            <div className="card">
+            <div className="card br-6">
               <div className="card-header">
                 <div className="mt-2">
                   <h4>Certifications</h4>

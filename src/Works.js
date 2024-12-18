@@ -1,18 +1,9 @@
 import React, { useState } from "react";
 
 const Works = () => {
-  const [current, setCurrent] = useState("Content");
+  const [current, setCurrent] = useState("Product");
 
   const workSamples = {
-    Content: [
-      "cs1_1.png",
-      "tts1.png",
-      "tts2.png",
-      "swtn2.png",
-      "swtn3.png",
-      "inkyhome.png",
-    ],
-    Elearning: ["e1.png", "el2.png", "vid1.png"],
     Product: [
       "ps1.png",
       "ps2.png",
@@ -22,6 +13,15 @@ const Works = () => {
       "he2.png",
       "he1.png",
     ],
+    Content: [
+      "cs1_1.png",
+      "tts1.png",
+      "tts2.png",
+      "swtn2.png",
+      "swtn3.png",
+      "inkyhome.png",
+    ],
+    Elearning: ["e1.png", "el2.png", "vid1.png"],
     Ecommerce: [
       "ft1.png",
       "ft2.png",
@@ -33,7 +33,7 @@ const Works = () => {
       "vors (5).png",
       "vors (8).png",
       "vors (10).png",
-    ],
+    ]
   };
 
   const projectChange = (project) => {
@@ -93,7 +93,7 @@ const Works = () => {
         <br />
 
         <div className="portfolio">
-          <div className="filters">
+          <div className="filters br-1">
             {
                 Object.keys(workSamples).map((project) => (
                     <span 
@@ -106,8 +106,8 @@ const Works = () => {
             }
             
           </div>
-          <div id="portfolioContainer" className="portfolio-container">
-            {workSamples[current].map((imgName, index) => {
+          <div id="portfolioContainer" className="portfolio-container br-2">
+            {workSamples[current].map((imgName) => {
               return (
                   <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className="portfolio-item">
