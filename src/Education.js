@@ -81,7 +81,7 @@ const Education = () => {
 
           <div className="col-12">
             <div
-              className="container mb-5 para-style"
+              className="container mb-5 para-style ta-j"
               data-aos="fade-up"
               data-aos-duration="1000"
             >

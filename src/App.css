@@ -145,3 +145,7 @@ body {
 .portfolio-item img {
   cursor: pointer;
 }
+
+.ta-j {
+  text-align: justify !important;
+}

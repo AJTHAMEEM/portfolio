@@ -225,7 +225,7 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="800"
-        className="mt-5 para-style text-dg"
+        className="mt-5 para-style text-dg ta-j"
       >
         Passionate developer skilled in creating dynamic front-end interfaces
         and robust back-end systems, Delivering seamless user experiences with a
